@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import RollDice from './RollDice';
 import "./Die.css";
 
 class Die extends Component {
     render(){
         return(
             <div>
-                <i className='fas fa-dice-one'></i>
+                <i className={`Die fas fa-dice-${this.props.face}`}></i>
             </div>
 
         );
