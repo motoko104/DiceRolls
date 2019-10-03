@@ -16,7 +16,7 @@ class RollDice extends Component{
         this.roll = this.roll.bind(this);
     }
     roll(){
-        //pick t new rolls
+        //pick two new rolls
         const newDie1 = this.props.sides[
             Math.floor(Math.random() * this.props.sides.length)];
             const newDie2 = this.props.sides[
